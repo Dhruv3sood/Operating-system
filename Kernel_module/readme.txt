@@ -1,0 +1,5 @@
+To implement a kernel system call as a module, take the following steps: 
+Defining the system call function. The prototype for this function should be sys my syscall (int pid). If the function succeeds, it should return 0; otherwise, it should return a negative error code. 
+Define the function that handles system calls. This function should have the prototype asmlinkage my syscall (int pid). It should simply call the system call function and return the result. 
+To the system call table, add the system call wrapper function. This can be accomplished by modifying the sys call table array in the sys call table.h header file. 
+Put the system call function into action. You can use the find task by pid() function within the function to get a pointer to the task struct of the process with the given PID.
