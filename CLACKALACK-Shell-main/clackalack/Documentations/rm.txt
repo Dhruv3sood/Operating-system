@@ -1,0 +1,12 @@
+rm [-options]
+The rm utility attempts to remove the non-directory type files specified on the command line.
+
+options
+     -f      by default removing directories is not permitted. this options allows to remove directories as well.
+     -v      Be verbose when deleting files, showing them as they are removed.
+
+Errors
+      1.     prompt thrown if file entered is not in the directory
+      2.     prompt thrown if invalid options are used
+      3.     prompt thrown if removal of file/folder unsuccessful
+      4.     prompt thrown if directory is made to delete without the -f command

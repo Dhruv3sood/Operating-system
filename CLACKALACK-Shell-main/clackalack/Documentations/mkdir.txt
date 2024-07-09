@@ -1,0 +1,14 @@
+mkdir [-options] [directories]
+The mkdir utility creates the directories named as operands, in the order specified in the command line.
+
+options
+     -p             Create intermediate directories as required.  If this option is not specified, the full path prefix of each operand must already exist.  On the
+                    other hand, with this option specified, no error will be reported if a directory given as an operand already exists.
+
+     -v             Be verbose when creating directories, listing them as they are created.
+
+Errors
+      1.     prompt thrown if directory already exists
+      2.     prompt thrown if invalid options are used
+      3.     prompt thrown creation of direcotry is unsuccessful
+      4.     prompt throw if path doesn't already exist and p flag not used

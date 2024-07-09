@@ -1,0 +1,11 @@
+pwd [-options]
+The pwd utility writes the absolute pathname of the current working directory to the standard output.
+
+options
+     -L      default option. Display the logical current working directory.
+     -v      Display the physical current working directory (all symbolic links resolved).
+
+Errors
+      1.     prompt thrown if invalid options are used
+      2.     prompt thrown command was unsuccessful in getting the current working directory
+      3.     prompt thrown if unable to resolve symbolic link

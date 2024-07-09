@@ -1,0 +1,12 @@
+cd [-options][directory]
+cd changes the current working directory.
+
+options
+     ~      changes current working directory to home directory
+     -P     allows documentation of changing into symbolic link direcotry, without -P program will not recogonise directory into a symbolic directory.
+
+Errors
+      1.     prompt thrown if direcotry doesn't exist
+      2.     prompt thrown if invalid options are used
+      3.     prompt thrown if standard cd directory commands are passed, with -P(symbolic link flag) option
+      4.     prompt thrown if change of directory unsuccessful
