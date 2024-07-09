@@ -1,0 +1,11 @@
+cat [-options] [filenames]
+The cat utility reads files sequentially, writing them to the standard output.  The file operands are processed in command-line order.
+
+options
+     -n      Number the output lines, starting at 1.
+     -b      Number the non-blank output lines, starting at 1.
+
+Errors
+      1.     prompt thrown if file entered is not in the directory
+      2.     prompt thrown if invalid options are used
+      3.     prompt thrown if creation, writing or reading of file unsuccessful

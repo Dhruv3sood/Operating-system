@@ -1,0 +1,10 @@
+ls [-options]
+lists directory contents. Displays the names of files contained within that directory.
+
+options
+     -a      Include directory entries whose names begin with a dot (‘.’)
+     -1      (The numeric digit “one”.) Force output to be one entry per line.
+
+Errors
+      1.     prompt thrown if an invalid directory needs to be listed
+      2.     prompt thrown if invalid options are used

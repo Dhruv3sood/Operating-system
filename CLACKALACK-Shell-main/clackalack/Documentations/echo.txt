@@ -1,0 +1,11 @@
+echo [-options][STRING]
+write arguments to the standard output
+
+options
+       -n     Do not output a newline.
+       -s     Do not separate arguments with spaces.
+       --     signals the end of the options. It is just like other options optional.
+
+Errors
+      1.     options apart from -n -s are treated as string
+      2.     user can start string with option charecters after signalling end of options using "--"

@@ -1,0 +1,13 @@
+date [-options] [arguments]
+display or set date and time
+
+options
+     -f continuous string(date specifier format)
+            takes string without spaces, and outputs date and time in the format specified by the string. The string must use date specifier format.
+     -r filename
+             Print the date and time of the last modification of filename.
+
+Errors
+      1.     prompt thrown if invalid options are used
+      2.     prompt is thrown if more than one options are used at a time
+      3.     prompt thrown if file following -r doesn't exist
